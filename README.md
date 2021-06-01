@@ -55,3 +55,10 @@ assuming the test SmartWallet is on the same LAN
 Also note that the SmartWallet release builds require HTTP**S** connections, and cannot use
 plain HTTP. To use this demo without SSL certificates please use a **staging**
 build of the SmartWallet on Android, available for download here: https://jolocom.io/wp-content/uploads/smartwallet/smartwallet-staging-1.11.1.apk
+
+### Notes from the demo explorations
+
+![yarn start terminal](images/jolocom-yarn-start.png)
+Here would be the point where you set the SERVICE_HOSTPORT environment variable, basically by prefixing the command line with the variable:
+```
+$ SERVICE_HOSTPORT="192.168.2.26:9000" yarn start

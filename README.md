@@ -59,6 +59,6 @@ build of the SmartWallet on Android, available for download here: https://joloco
 ### Notes from the demo explorations
 
 ![yarn start terminal](images/jolocom-yarn-start.png)
-Here would be the point where you set the SERVICE_HOSTPORT environment variable, basically by prefixing the command line with the variable:
+Here would be the point where you set the `SERVICE_HOSTPORT` environment variable, basically by prefixing the command line with the variable:
 ```
 $ SERVICE_HOSTPORT="192.168.2.26:9000" yarn start

@@ -2,22 +2,21 @@ import { CredentialTypes } from "./types"
 
 export const documentInputs = [
   {
-    label: 'Given Name',
-    value: 'Karl',
-    key: 'givenName',
+    label: 'Belastingdienst',
+    value: '1563',
+    key: 'Beslagvrije voet',
     placeholder: '(mandatory)',
   },
   {
-    label: 'Family Name',
-    value: 'Müller',
-    key: 'familyName',
+    label: 'Gerechtsdeurwaarder',
+    value: 'Sanne Voorspoed',
+    key: 'CDW',
     placeholder: '(mandatory)',
   },
   {
-    label: 'Photograph',
-    value:
-      'https://i.pinimg.com/564x/64/4d/dc/644ddca56c43e4b01af5aec27e010feb.jpg',
-    key: 'photo',
+    label: 'UWV',
+    value: '1846',
+    key: 'Inkomensverhouding',
     placeholder: '(mandatory)',
   },
 ]

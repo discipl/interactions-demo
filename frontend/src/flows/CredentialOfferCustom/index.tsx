@@ -20,7 +20,7 @@ const NEW_CLAIM: TInput = {
   value: '',
 }
 
-const DEFAULT_NAME = 'Jolocom credential'
+const DEFAULT_NAME = 'SSI Nationaal Spoor - Use Case Beslagvrije Voet'
 
 export const CredentialOfferCustom = ({
   serviceAPI,

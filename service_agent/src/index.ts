@@ -142,8 +142,7 @@ export const init = async () => {
 
   server.log(
     ['info'],
-    `Jolocom SDK with default DIDMethod did:${
-      sdk.didMethods.getDefault().prefix
+    `Jolocom SDK with default DIDMethod did:${sdk.didMethods.getDefault().prefix
     }`,
   )
   server.log(['info'], `Initializing Agent...`)

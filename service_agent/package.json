@@ -5,6 +5,7 @@
   "author": "Jolocom Dev <dev@jolocom.io>",
   "license": "MIT",
   "private": false,
+  "proxy": "http://localhost:9000",
   "scripts": {
     "debug": "DEBUG=1 nodemon",
     "start": "nodemon",

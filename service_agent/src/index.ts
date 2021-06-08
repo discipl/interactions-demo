@@ -140,6 +140,17 @@ export const init = async () => {
   })
   await server.register(HAPIWebSocket)
 
+  /*  provide plain REST route  */
+  server.route({
+    method: "POST", path: "/foo",
+    config: {
+      payload: { output: "data", parse: true, allow: "application/json" }
+    },
+    handler: (request, h) => {
+      return { at: "foo", seen: request.payload }
+    }
+  })
+
   server.log(
     ['info'],
     `Jolocom SDK with default DIDMethod did:${sdk.didMethods.getDefault().prefix
